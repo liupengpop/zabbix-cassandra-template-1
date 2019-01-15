@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>3.4</version>
-    <date>2019-01-15T17:11:02Z</date>
+    <date>2019-01-15T19:54:32Z</date>
     <groups>
         <group>
             <name>Templates</name>
@@ -815,129 +815,6 @@
                     <type>16</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>jmx[&quot;org.apache.cassandra.metrics:type=ClientRequest,scope=Read,name=Latency&quot;,&quot;50thPercentile&quot;]</key>
-                    <delay>120</delay>
-                    <history>90d</history>
-                    <trends>1100d</trends>
-                    <status>0</status>
-                    <value_type>0</value_type>
-                    <allowed_hosts/>
-                    <units>microsec</units>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username>{$JMX_USER}</username>
-                    <password>{$JMX_PASS}</password>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description>Total latency serving data to clients.</description>
-                    <inventory_link>0</inventory_link>
-                    <applications>
-                        <application>
-                            <name>Custom - Service - Cassandra Node - Global</name>
-                        </application>
-                    </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint>service:jmx:rmi:///jndi/rmi://{HOST.CONN}:{HOST.PORT}/jmxrmi</jmx_endpoint>
-                    <master_item/>
-                </item>
-                <item>
-                    <name>JMX: Cassandra Cluster: Latency: ClientRequest: Read: $2</name>
-                    <type>16</type>
-                    <snmp_community/>
-                    <snmp_oid/>
-                    <key>jmx[&quot;org.apache.cassandra.metrics:type=ClientRequest,scope=Read,name=Latency&quot;,&quot;75thPercentile&quot;]</key>
-                    <delay>120</delay>
-                    <history>90d</history>
-                    <trends>1100d</trends>
-                    <status>0</status>
-                    <value_type>0</value_type>
-                    <allowed_hosts/>
-                    <units>microsec</units>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username>{$JMX_USER}</username>
-                    <password>{$JMX_PASS}</password>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description>Total latency serving data to clients.</description>
-                    <inventory_link>0</inventory_link>
-                    <applications>
-                        <application>
-                            <name>Custom - Service - Cassandra Node - Global</name>
-                        </application>
-                    </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint>service:jmx:rmi:///jndi/rmi://{HOST.CONN}:{HOST.PORT}/jmxrmi</jmx_endpoint>
-                    <master_item/>
-                </item>
-                <item>
-                    <name>JMX: Cassandra Cluster: Latency: ClientRequest: Read: $2</name>
-                    <type>16</type>
-                    <snmp_community/>
-                    <snmp_oid/>
-                    <key>jmx[&quot;org.apache.cassandra.metrics:type=ClientRequest,scope=Read,name=Latency&quot;,&quot;95thPercentile&quot;]</key>
-                    <delay>120</delay>
-                    <history>90d</history>
-                    <trends>1100d</trends>
-                    <status>0</status>
-                    <value_type>0</value_type>
-                    <allowed_hosts/>
-                    <units>microsec</units>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username>{$JMX_USER}</username>
-                    <password>{$JMX_PASS}</password>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description>Total latency serving data to clients.</description>
-                    <inventory_link>0</inventory_link>
-                    <applications>
-                        <application>
-                            <name>Custom - Service - Cassandra Node - Global</name>
-                        </application>
-                    </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint>service:jmx:rmi:///jndi/rmi://{HOST.CONN}:{HOST.PORT}/jmxrmi</jmx_endpoint>
-                    <master_item/>
-                </item>
-                <item>
-                    <name>JMX: Cassandra Cluster: Latency: ClientRequest: Read: $2</name>
-                    <type>16</type>
-                    <snmp_community/>
-                    <snmp_oid/>
                     <key>jmx[&quot;org.apache.cassandra.metrics:type=ClientRequest,scope=Read,name=Latency&quot;,&quot;FifteenMinuteRate&quot;]</key>
                     <delay>120</delay>
                     <history>90d</history>
@@ -1058,129 +935,6 @@
                             <params>0.001</params>
                         </step>
                     </preprocessing>
-                    <jmx_endpoint>service:jmx:rmi:///jndi/rmi://{HOST.CONN}:{HOST.PORT}/jmxrmi</jmx_endpoint>
-                    <master_item/>
-                </item>
-                <item>
-                    <name>JMX: Cassandra Cluster: Latency: ClientRequest: Write: $2</name>
-                    <type>16</type>
-                    <snmp_community/>
-                    <snmp_oid/>
-                    <key>jmx[&quot;org.apache.cassandra.metrics:type=ClientRequest,scope=Write,name=Latency&quot;,&quot;50thPercentile&quot;]</key>
-                    <delay>120</delay>
-                    <history>90d</history>
-                    <trends>1100d</trends>
-                    <status>0</status>
-                    <value_type>0</value_type>
-                    <allowed_hosts/>
-                    <units>microsec</units>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username>{$JMX_USER}</username>
-                    <password>{$JMX_PASS}</password>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description>Total latency serving write requests from clients.</description>
-                    <inventory_link>0</inventory_link>
-                    <applications>
-                        <application>
-                            <name>Custom - Service - Cassandra Node - Global</name>
-                        </application>
-                    </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint>service:jmx:rmi:///jndi/rmi://{HOST.CONN}:{HOST.PORT}/jmxrmi</jmx_endpoint>
-                    <master_item/>
-                </item>
-                <item>
-                    <name>JMX: Cassandra Cluster: Latency: ClientRequest: Write: $2</name>
-                    <type>16</type>
-                    <snmp_community/>
-                    <snmp_oid/>
-                    <key>jmx[&quot;org.apache.cassandra.metrics:type=ClientRequest,scope=Write,name=Latency&quot;,&quot;75thPercentile&quot;]</key>
-                    <delay>120</delay>
-                    <history>90d</history>
-                    <trends>1100d</trends>
-                    <status>0</status>
-                    <value_type>0</value_type>
-                    <allowed_hosts/>
-                    <units>microsec</units>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username>{$JMX_USER}</username>
-                    <password>{$JMX_PASS}</password>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description>Total latency serving write requests from clients.</description>
-                    <inventory_link>0</inventory_link>
-                    <applications>
-                        <application>
-                            <name>Custom - Service - Cassandra Node - Global</name>
-                        </application>
-                    </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint>service:jmx:rmi:///jndi/rmi://{HOST.CONN}:{HOST.PORT}/jmxrmi</jmx_endpoint>
-                    <master_item/>
-                </item>
-                <item>
-                    <name>JMX: Cassandra Cluster: Latency: ClientRequest: Write: $2</name>
-                    <type>16</type>
-                    <snmp_community/>
-                    <snmp_oid/>
-                    <key>jmx[&quot;org.apache.cassandra.metrics:type=ClientRequest,scope=Write,name=Latency&quot;,&quot;95thPercentile&quot;]</key>
-                    <delay>120</delay>
-                    <history>90d</history>
-                    <trends>1100d</trends>
-                    <status>0</status>
-                    <value_type>0</value_type>
-                    <allowed_hosts/>
-                    <units>microsec</units>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username>{$JMX_USER}</username>
-                    <password>{$JMX_PASS}</password>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description>Total latency serving write requests from clients.</description>
-                    <inventory_link>0</inventory_link>
-                    <applications>
-                        <application>
-                            <name>Custom - Service - Cassandra Node - Global</name>
-                        </application>
-                    </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
                     <jmx_endpoint>service:jmx:rmi:///jndi/rmi://{HOST.CONN}:{HOST.PORT}/jmxrmi</jmx_endpoint>
                     <master_item/>
                 </item>
@@ -2907,7 +2661,7 @@
                         <conditions>
                             <condition>
                                 <macro>{#JMXOBJ}</macro>
-                                <value>.*scope=(Read||Write|CASRead|CASWrite|ViewWrite),name=Latency.*</value>
+                                <value>.*scope=(Read|Write|CASRead|CASWrite|ViewWrite),name=Latency.*</value>
                                 <operator>8</operator>
                                 <formulaid>A</formulaid>
                             </condition>
@@ -2916,6 +2670,90 @@
                     <lifetime>5d</lifetime>
                     <description/>
                     <item_prototypes>
+                        <item_prototype>
+                            <name>JMX: Cassandra Cluster: ClientRequest {#JMXSCOPE} 50thPercentile</name>
+                            <type>16</type>
+                            <snmp_community/>
+                            <snmp_oid/>
+                            <key>jmx[&quot;{#JMXOBJ}&quot;,&quot;50thPercentile&quot;]</key>
+                            <delay>5m</delay>
+                            <history>7d</history>
+                            <trends>30d</trends>
+                            <status>0</status>
+                            <value_type>0</value_type>
+                            <allowed_hosts/>
+                            <units>microsec</units>
+                            <snmpv3_contextname/>
+                            <snmpv3_securityname/>
+                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                            <snmpv3_authpassphrase/>
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                            <snmpv3_privpassphrase/>
+                            <params/>
+                            <ipmi_sensor/>
+                            <authtype>0</authtype>
+                            <username>{$JMX_USER}</username>
+                            <password>{$JMX_PASS}</password>
+                            <publickey/>
+                            <privatekey/>
+                            <port/>
+                            <description/>
+                            <inventory_link>0</inventory_link>
+                            <applications>
+                                <application>
+                                    <name>Custom - Service - Cassandra Node - Performance</name>
+                                </application>
+                            </applications>
+                            <valuemap/>
+                            <logtimefmt/>
+                            <preprocessing/>
+                            <jmx_endpoint>service:jmx:rmi:///jndi/rmi://{HOST.CONN}:{HOST.PORT}/jmxrmi</jmx_endpoint>
+                            <application_prototypes/>
+                            <master_item_prototype/>
+                        </item_prototype>
+                        <item_prototype>
+                            <name>JMX: Cassandra Cluster: ClientRequest {#JMXSCOPE} 75thPercentile</name>
+                            <type>16</type>
+                            <snmp_community/>
+                            <snmp_oid/>
+                            <key>jmx[&quot;{#JMXOBJ}&quot;,&quot;75thPercentile&quot;]</key>
+                            <delay>5m</delay>
+                            <history>7d</history>
+                            <trends>30d</trends>
+                            <status>0</status>
+                            <value_type>0</value_type>
+                            <allowed_hosts/>
+                            <units>microsec</units>
+                            <snmpv3_contextname/>
+                            <snmpv3_securityname/>
+                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                            <snmpv3_authpassphrase/>
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                            <snmpv3_privpassphrase/>
+                            <params/>
+                            <ipmi_sensor/>
+                            <authtype>0</authtype>
+                            <username>{$JMX_USER}</username>
+                            <password>{$JMX_PASS}</password>
+                            <publickey/>
+                            <privatekey/>
+                            <port/>
+                            <description/>
+                            <inventory_link>0</inventory_link>
+                            <applications>
+                                <application>
+                                    <name>Custom - Service - Cassandra Node - Performance</name>
+                                </application>
+                            </applications>
+                            <valuemap/>
+                            <logtimefmt/>
+                            <preprocessing/>
+                            <jmx_endpoint>service:jmx:rmi:///jndi/rmi://{HOST.CONN}:{HOST.PORT}/jmxrmi</jmx_endpoint>
+                            <application_prototypes/>
+                            <master_item_prototype/>
+                        </item_prototype>
                         <item_prototype>
                             <name>JMX: Cassandra Cluster: ClientRequest {#JMXSCOPE} 99thPercentile</name>
                             <type>16</type>
@@ -2959,18 +2797,18 @@
                             <master_item_prototype/>
                         </item_prototype>
                         <item_prototype>
-                            <name>JMX: Cassandra Cluster: ClientRequest {#JMXSCOPE} Rate</name>
+                            <name>JMX: Cassandra Cluster: ClientRequest {#JMXSCOPE} TwoMinuteRate</name>
                             <type>16</type>
                             <snmp_community/>
                             <snmp_oid/>
                             <key>jmx[&quot;{#JMXOBJ}&quot;,&quot;Count&quot;]</key>
-                            <delay>5m</delay>
+                            <delay>2m</delay>
                             <history>7d</history>
                             <trends>30d</trends>
                             <status>0</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
-                            <units>req</units>
+                            <units>req/sec</units>
                             <snmpv3_contextname/>
                             <snmpv3_securityname/>
                             <snmpv3_securitylevel>0</snmpv3_securitylevel>
@@ -3005,9 +2843,152 @@
                             <application_prototypes/>
                             <master_item_prototype/>
                         </item_prototype>
+                        <item_prototype>
+                            <name>JMX: Cassandra Cluster: ClientRequest {#JMXSCOPE} FifteenMinuteRate</name>
+                            <type>16</type>
+                            <snmp_community/>
+                            <snmp_oid/>
+                            <key>jmx[&quot;{#JMXOBJ}&quot;,&quot;FifteenMinuteRate&quot;]</key>
+                            <delay>5m</delay>
+                            <history>7d</history>
+                            <trends>30d</trends>
+                            <status>0</status>
+                            <value_type>0</value_type>
+                            <allowed_hosts/>
+                            <units>req/sec</units>
+                            <snmpv3_contextname/>
+                            <snmpv3_securityname/>
+                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                            <snmpv3_authpassphrase/>
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                            <snmpv3_privpassphrase/>
+                            <params/>
+                            <ipmi_sensor/>
+                            <authtype>0</authtype>
+                            <username>{$JMX_USER}</username>
+                            <password>{$JMX_PASS}</password>
+                            <publickey/>
+                            <privatekey/>
+                            <port/>
+                            <description/>
+                            <inventory_link>0</inventory_link>
+                            <applications>
+                                <application>
+                                    <name>Custom - Service - Cassandra Node - Performance</name>
+                                </application>
+                            </applications>
+                            <valuemap/>
+                            <logtimefmt/>
+                            <preprocessing/>
+                            <jmx_endpoint>service:jmx:rmi:///jndi/rmi://{HOST.CONN}:{HOST.PORT}/jmxrmi</jmx_endpoint>
+                            <application_prototypes/>
+                            <master_item_prototype/>
+                        </item_prototype>
                     </item_prototypes>
                     <trigger_prototypes/>
-                    <graph_prototypes/>
+                    <graph_prototypes>
+                        <graph_prototype>
+                            <name>ClientRequest {#JMXSCOPE} Percentiles</name>
+                            <width>900</width>
+                            <height>300</height>
+                            <yaxismin>0.0000</yaxismin>
+                            <yaxismax>100.0000</yaxismax>
+                            <show_work_period>1</show_work_period>
+                            <show_triggers>1</show_triggers>
+                            <type>0</type>
+                            <show_legend>1</show_legend>
+                            <show_3d>0</show_3d>
+                            <percent_left>0.0000</percent_left>
+                            <percent_right>0.0000</percent_right>
+                            <ymin_type_1>1</ymin_type_1>
+                            <ymax_type_1>0</ymax_type_1>
+                            <ymin_item_1>0</ymin_item_1>
+                            <ymax_item_1>0</ymax_item_1>
+                            <graph_items>
+                                <graph_item>
+                                    <sortorder>0</sortorder>
+                                    <drawtype>0</drawtype>
+                                    <color>BB00BB</color>
+                                    <yaxisside>0</yaxisside>
+                                    <calc_fnc>4</calc_fnc>
+                                    <type>0</type>
+                                    <item>
+                                        <host>Custom - Service - Cassandra - Node</host>
+                                        <key>jmx[&quot;{#JMXOBJ}&quot;,&quot;50thPercentile&quot;]</key>
+                                    </item>
+                                </graph_item>
+                                <graph_item>
+                                    <sortorder>1</sortorder>
+                                    <drawtype>0</drawtype>
+                                    <color>F63100</color>
+                                    <yaxisside>0</yaxisside>
+                                    <calc_fnc>4</calc_fnc>
+                                    <type>0</type>
+                                    <item>
+                                        <host>Custom - Service - Cassandra - Node</host>
+                                        <key>jmx[&quot;{#JMXOBJ}&quot;,&quot;75thPercentile&quot;]</key>
+                                    </item>
+                                </graph_item>
+                                <graph_item>
+                                    <sortorder>2</sortorder>
+                                    <drawtype>0</drawtype>
+                                    <color>2774A4</color>
+                                    <yaxisside>0</yaxisside>
+                                    <calc_fnc>4</calc_fnc>
+                                    <type>0</type>
+                                    <item>
+                                        <host>Custom - Service - Cassandra - Node</host>
+                                        <key>jmx[&quot;{#JMXOBJ}&quot;,&quot;99thPercentile&quot;]</key>
+                                    </item>
+                                </graph_item>
+                            </graph_items>
+                        </graph_prototype>
+                        <graph_prototype>
+                            <name>ClientRequest {#JMXSCOPE} Rates</name>
+                            <width>900</width>
+                            <height>300</height>
+                            <yaxismin>0.0000</yaxismin>
+                            <yaxismax>100.0000</yaxismax>
+                            <show_work_period>1</show_work_period>
+                            <show_triggers>1</show_triggers>
+                            <type>0</type>
+                            <show_legend>1</show_legend>
+                            <show_3d>0</show_3d>
+                            <percent_left>0.0000</percent_left>
+                            <percent_right>0.0000</percent_right>
+                            <ymin_type_1>1</ymin_type_1>
+                            <ymax_type_1>0</ymax_type_1>
+                            <ymin_item_1>0</ymin_item_1>
+                            <ymax_item_1>0</ymax_item_1>
+                            <graph_items>
+                                <graph_item>
+                                    <sortorder>0</sortorder>
+                                    <drawtype>0</drawtype>
+                                    <color>1A7C11</color>
+                                    <yaxisside>0</yaxisside>
+                                    <calc_fnc>4</calc_fnc>
+                                    <type>0</type>
+                                    <item>
+                                        <host>Custom - Service - Cassandra - Node</host>
+                                        <key>jmx[&quot;{#JMXOBJ}&quot;,&quot;FifteenMinuteRate&quot;]</key>
+                                    </item>
+                                </graph_item>
+                                <graph_item>
+                                    <sortorder>1</sortorder>
+                                    <drawtype>0</drawtype>
+                                    <color>BB00BB</color>
+                                    <yaxisside>0</yaxisside>
+                                    <calc_fnc>4</calc_fnc>
+                                    <type>0</type>
+                                    <item>
+                                        <host>Custom - Service - Cassandra - Node</host>
+                                        <key>jmx[&quot;{#JMXOBJ}&quot;,&quot;Count&quot;]</key>
+                                    </item>
+                                </graph_item>
+                            </graph_items>
+                        </graph_prototype>
+                    </graph_prototypes>
                     <host_prototypes/>
                     <jmx_endpoint>service:jmx:rmi:///jndi/rmi://{HOST.CONN}:{HOST.PORT}/jmxrmi</jmx_endpoint>
                 </discovery_rule>
@@ -3030,7 +3011,7 @@
             <templates/>
             <screens>
                 <screen>
-                    <name>Custom - Service - Cassandra Node</name>
+                    <name>Custom - Service - Cassandra Node - Global</name>
                     <hsize>1</hsize>
                     <vsize>6</vsize>
                     <screen_items>
@@ -3164,6 +3145,57 @@
                                 <host>Custom - Service - Cassandra - Node</host>
                             </resource>
                             <max_columns>3</max_columns>
+                            <application/>
+                        </screen_item>
+                    </screen_items>
+                </screen>
+                <screen>
+                    <name>Custom - Service - Cassandra Node - Performance</name>
+                    <hsize>2</hsize>
+                    <vsize>1</vsize>
+                    <screen_items>
+                        <screen_item>
+                            <resourcetype>20</resourcetype>
+                            <width>500</width>
+                            <height>300</height>
+                            <x>0</x>
+                            <y>0</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>1</valign>
+                            <halign>0</halign>
+                            <style>0</style>
+                            <url/>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <resource>
+                                <name>ClientRequest {#JMXSCOPE} Rates</name>
+                                <host>Custom - Service - Cassandra - Node</host>
+                            </resource>
+                            <max_columns>1</max_columns>
+                            <application/>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>20</resourcetype>
+                            <width>500</width>
+                            <height>300</height>
+                            <x>1</x>
+                            <y>0</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>1</valign>
+                            <halign>0</halign>
+                            <style>0</style>
+                            <url/>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <resource>
+                                <name>ClientRequest {#JMXSCOPE} Percentiles</name>
+                                <host>Custom - Service - Cassandra - Node</host>
+                            </resource>
+                            <max_columns>1</max_columns>
                             <application/>
                         </screen_item>
                     </screen_items>
